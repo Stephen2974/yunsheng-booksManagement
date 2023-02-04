@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    cursor: default;
+}
+.main {
+    width: 100%;
+    height: 1080px;
+    /* background-color: darkblue; */
+}
+.bac{
+    width: 1920px;
+    height: 1080px;
+    background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87.png" );
+    margin: auto;
+}
+.header{
+    width: 1920px;
+    height: 150px;
+    background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/7QXvOerPqY.png");
+}
+.logo{
+    width: 207px;
+    height: 45px;
+    /* background-color: aquamarine; */
+    position: relative;
+    background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E5%9B%BE%E5%B1%82%201.png");
+    left: 360px;
+    top: 35px;
+}
+.rec{
+    width: 3px;
+    height: 45px;
+    background-color: white;
+    position: relative;
+    left: 580px;
+    top: -12px;
+}
+.library{
+    width: 128px;
+    height: 50px;
+    position: relative;
+    left: 590px;
+    top: -62px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+.search{
+    width: 65px;
+    height: 38px;
+    position: relative;
+    bottom: 190px;
+    left: 1500px;
+    color: white;
+    line-height: 38px;
+}
+.user{
+    width: 123px;
+    height: 38px;
+    position: relative;
+    bottom: 230px;
+    left: 1380px;
+    line-height: 38px;
+    color: white;
+}
+.nav{
+    width: 1150px;
+    height: 50px;
+    background-color: #e6e6e6;
+    position: relative;
+    top: -40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: color 0.6s;
+    font-weight: 800;
+    transition: background-color 0.6s;
+    letter-spacing: 2px;
+}
+/* .nav:hover{
+    background-color:#29aeef ;    
+} */
+.nav1:hover{
+    color: white;
+    background-color: #29aeef;
+}
+.nav1{
+    width: 297px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: color 0.6s;
+}
+.list{
+    list-style-type: none;
+    background-color: #e6e6e6;
+    color: white;
+    display: none;
+} 
+.content{
+    background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E7%9F%A9%E5%BD%A2%205.png" );
+    width: 865px;
+    height: 350px;
+    position: relative;
+    left: 673px;
+    z-index: 1;
+    display: none;
+}
+.content1 {
+    background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/5XqQjRe5pK.png");
+    width: 865px;
+    height: 175px;
+    position: relative;
+    top: 175px;
+    z-index: 2;
+   
+}
+.collection{
+    width: 255px;
+    height: 115px;
+    color: white;
+    position: relative;
+    bottom: 175px;
+    line-height: 115px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    
+}
+.name{
+    width: 121px;
+    height: 40px;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
+.input{
+    width: 636px;
+    height: 40px;
+    background-color: violet;
+    position: relative;
+    bottom: 190px;
+    left: 190px;
+}
+.font{
+    width: 670px;
+    height: 50px;
+    position: relative;
+    bottom: 195px;
+    left: 30px;
+    text-align: center;
+    line-height: 60px;
+    color:white;
+}
+.bottom{
+    width: 240px;
+    height: 44px;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+    letter-spacing: 1px;
+    color: white;
+}
+.ddd{
+    font-size: 20px;
+    width: 123px;
+    height: 40px;
+    border-style: none;
+    font-weight: 400;
+    position: relative;
+    color: white;
+    bottom: 40px;
+    left: 513px;
+    background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E7%9F%A9%E5%BD%A2%203.png");
+    border-style: none;
+}
