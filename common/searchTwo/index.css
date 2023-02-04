@@ -10,7 +10,7 @@
 }
 .bac{
     width: 1920px;
-    height: 1080px;
+    height: 1080px; 
     background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87.png" );
     margin: auto;
 }
@@ -80,9 +80,6 @@
     transition: background-color 0.6s;
     letter-spacing: 2px;
 }
-/* .nav:hover{
-    background-color:#29aeef ;    
-} */
 .nav1:hover{
     color: white;
     background-color: #29aeef;
@@ -105,9 +102,10 @@
     width: 865px;
     height: 350px;
     position: relative;
-    left: 673px;
+    left: 670px;
     z-index: 1;
     display: none;
+    top: -115px;
 }
 .content1 {
     background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/5XqQjRe5pK.png");
@@ -116,7 +114,6 @@
     position: relative;
     top: 175px;
     z-index: 2;
-   
 }
 .collection{
     width: 255px;
@@ -137,11 +134,12 @@
     position: relative;
     bottom: 150px;
     left: 50px;
+    outline-style: none;
+    border-radius: 8px;
 }
 .input{
     width: 636px;
     height: 40px;
-    background-color: violet;
     position: relative;
     bottom: 190px;
     left: 190px;
@@ -177,4 +175,117 @@
     left: 513px;
     background-image: url("https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E7%9F%A9%E5%BD%A2%203.png");
     border-style: none;
+    outline-style: none;
+    border-radius: 8px;
+}
+.LoanManagement{
+    width: 1150px;
+    height: 412px;
+    /* background-color: saddlebrown; */
+    position: relative;
+    bottom: 115px;
+    left: 385px;
+    display: none;
+}
+.steer{
+    width: 265px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+    letter-spacing: 1px;
+}
+.BorrowingTime{
+    width: 1150px;
+    height: 150px;
+    border-top: 3px solid #3375d5;
+    border-bottom: 3px solid #3375d5;
+}
+.confirm{
+    width: 155px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+}
+.Time{
+    width: 520px;
+    height: 40px;
+    position: relative;
+    left: 80px;
+    line-height: 40px;
+}
+.TobeReturn{
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+    left: 13px;
+}
+.choose{
+    width: 85px;
+    height: 25px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, .4);
+        -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, .4);
+        box-shadow: inset 0 3px 8px rgba(0, 0, 0, .24);
+        border: none;
+        outline-style: none;
+    text-indent: 5px;    
+    border-radius: 8px;
+}
+.date{
+    color:#888888;
+    font-weight:500;
+}
+.ConfirmButton{
+    width: 50px;
+    height: 25px;
+    background-color: #f39800;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: 10px;
+}
+.tips{
+    position: relative;
+    top: 150px;
+    color: orange;
+}
+.PersonalInformation{
+    width: 1150px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    bottom: 117px;
+    display: none;
+}
+.steer1 {
+    width: 180px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+    letter-spacing: 1px;
+    font-weight:600;
+}
+.table{
+    width: 1150px;
+    height: 255px;
+    /* background-color: burlywood; */
+    border-top: 3px solid #3375d5;
+}
+.BottomConfirm{
+    width: 330px;
+    height: 45px;
+    background-color: #23a9ee;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    border-radius: 8px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
 }

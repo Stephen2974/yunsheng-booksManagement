@@ -23,7 +23,7 @@
                 </div>
                 <div class="nav" >
                     <div class="nav1">
-                       <img src="https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E6%90%9C%E7%B4%A2.png" style="position: relative; right: 40px;">
+                            <img src="https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E6%90%9C%E7%B4%A2.png" style="position: relative; right: 40px;">
                         <a onclick="menuSub()" >搜索图书馆资源<img src="https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E7%AE%AD%E5%A4%B42.png" style="position: relative; left: 50px; ;"></a>
                         <ul id="div1" class="list">
                             <li style="background-color: #000083;" onclick="menuContent()">馆藏图书<img src="https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E7%AE%AD%E5%A4%B42%20%E6%8B%B7%E8%B4%9D.png" style="position: relative; left: 85px;"></li>
@@ -36,10 +36,11 @@
                         </ul>
                     </div>
                     <div class="nav1">
-                        借阅管理
+                        <a onclick="menuSub1()">借阅管理</a>
+                        
                     </div>
                     <div class="nav1">
-                        修改个人信息
+                       <a onclick="menyInformation()">修改个人信息</a>
                     </div>
                     <div class="nav1">
                         消息
@@ -51,18 +52,19 @@
                 <div class="user">
                     <a><img src="https://typora--lv.oss-cn-beijing.aliyuncs.com/piggo/%E7%94%A8%E6%88%B7.png">     我的图书馆</a>
                 </div>
-            </div>
-            <div class="content" id="libraryMenu">
+                <div class="content" id="libraryMenu">
                 <div class="content1">
                     <div class="collection">
                         <a>馆藏书籍</a>
                     </div>
                     <div class="name">
-                        <input type="text" id="name" placeholder="   书名" class="" style="font-size: 20px; width: 121px; height: 40px;border-style: none;font-weight: 500;">
+                        <input type="text" id="name" placeholder="   书名" class="" style="font-size: 20px; width: 121px; height: 40px;border-style: none;font-weight: 500; outline-style: none;
+    border-radius: 8px;">
                     </div>
                     <div class="input">
                         <input type="text" id="name" placeholder="   请输入您的搜索内容" class=""
-                            style="font-size: 20px; width: 513px; height: 40px;border-style: none;font-weight: 400;">
+                            style="font-size: 20px; width: 513px; height: 40px;border-style: none;font-weight: 400; outline-style: none;
+    border-radius: 8px;">
                         <button class="ddd">搜索</button>
                     </div>
                     <div class="font">
@@ -74,7 +76,50 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="LoanManagement" id="div2">
+                <div class="steer">
+                    <a>首页</a>  /  <a>借阅管理</a> /  <a style="color: blue;">借阅图书</a>
+                </div>
+                <div class="BorrowingTime">
+                    <div class="confirm">
+                        确定借阅时间
+                    </div>
+                    <div class="Time">
+                        <a style="color: orange;">借阅时间：</a>
+                        <a class="date">年：</a>
+                        <input  placeholder="2023" class="choose">
+                        <a class="date">  月: </a>
+                        <input placeholder="2" class="choose">
+                        <a class="date"> 日：</a>
+                        <input placeholder="2" class="choose">
+                        <button type="button" class="ConfirmButton">确定</button>
+                    </div>
+                    <div class="TobeReturn">
+                        待还书籍
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="tips">
+                        <p>
+                            延期还书说明：选择延期还书后将自动默认读者你会在原归还时间的30天内归还书籍，且每人每月可延期次数为两次。逾期归还，每册每天收取0.2元的
+                        </p>
+                        <p>
+                            逾期使用费，最高限额为每册30元。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="PersonalInformation" id="div3">
+                <div class="steer1">
+                    <a>首页</a> / <a style="color: blue;">修改个人信息</a>
+                </div>
+                <div class="table">
+
+                </div>
+                <div class="BottomConfirm">
+                    确定
+                </div>
+            </div>
         </div>
     </div>
 </body>
